@@ -19,3 +19,4 @@
 // });
 
 $router->get('/', 'HomeController@index');
+$router->get('/post/{slug}', 'PostController@show');
