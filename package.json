@@ -1,0 +1,35 @@
+{
+  "name": "blog-lumen",
+  "version": "1.0.0",
+  "description": "> Projeto desenvolvido com base na série de videoaulas da playlist **Lumen 8** no canal **Clube Full-Stack** do youtube durante os estudos sobre Lumen 8, com o objetivo de criar uma página de BLOG simples e uma API utilizando um Framework \"leve\" e com menos recursos do que o Laravel. <br />",
+  "main": "webpack.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --watch",
+    "prod": "NODE_ENV=production webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-santoni/projeto-blog-lumen-8-php.git"
+  },
+  "keywords": [
+    "blog",
+    "Lumen",
+    "API"
+  ],
+  "author": "Rafel Santoni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafael-santoni/projeto-blog-lumen-8-php/issues"
+  },
+  "homepage": "https://github.com/rafael-santoni/projeto-blog-lumen-8-php#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
