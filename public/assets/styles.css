@@ -1,4 +1,9 @@
-#errors {
+.error {
   background-color: crimson;
+  color: white;
+}
+
+.success {
+  background-color: green;
   color: white;
 }
