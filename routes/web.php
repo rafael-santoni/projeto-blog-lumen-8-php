@@ -22,3 +22,4 @@ $router->get('/', 'HomeController@index');
 $router->get('/post/{slug}', 'PostController@show');
 $router->get('/login', 'LoginController@index');
 $router->post('/login', 'LoginController@store');
+$router->get('/logout', 'LoginController@destroy');
