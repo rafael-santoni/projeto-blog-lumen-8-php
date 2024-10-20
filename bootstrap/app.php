@@ -78,9 +78,10 @@ $app->configure('app');
 //     App\Http\Middleware\ExampleMiddleware::class
 // ]);
 
-// $app->routeMiddleware([
-//     'auth' => App\Http\Middleware\Authenticate::class,
-// ]);
+$app->routeMiddleware([
+    // 'auth' => App\Http\Middleware\Authenticate::class,
+    'loggedIn' => App\Http\Middleware\CheckLoggedIn::class,
+]);
 
 /*
 |--------------------------------------------------------------------------

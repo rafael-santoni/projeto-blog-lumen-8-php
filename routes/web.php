@@ -23,3 +23,4 @@ $router->get('/post/{slug}', 'PostController@show');
 $router->get('/login', 'LoginController@index');
 $router->post('/login', 'LoginController@store');
 $router->get('/logout', 'LoginController@destroy');
+$router->get('/protect', ['middleware' => 'loggedIn', 'uses' => 'ProtectController@index']);
