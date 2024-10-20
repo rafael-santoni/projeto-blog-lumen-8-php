@@ -31,5 +31,8 @@
     "babel-loader": "^8.2.2",
     "webpack": "^5.72.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
